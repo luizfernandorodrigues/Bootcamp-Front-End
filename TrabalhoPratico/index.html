@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head lang="pt-BR">
+  <meta charset="utf-8" />
+  <title>Simulação Financiamento</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div id="principal">
+    <h2>Simulação de financiamento</h2>
+    <div id="parametros">
+      <div id="componenteParametros">
+        <label>Valor:</label>
+        <br />
+        <input id="inputValor" type="number" />
+      </div>
+      <div id="componenteParametros">
+        <label>Prazo (Anos):</label>
+        <br />
+        <input id="inputPrazo" type="number" />
+      </div>
+      <div id="componenteParametros">
+        <label>Juros ao Ano:</label>
+        <br />
+        <input id="inputJurosAoAno" type="number" />
+      </div>
+    </div>
+
+    <button id="componenteBotao" onclick="simulaFinanciamento()">
+      Simular
+    </button>
+    <h2>Resultado</h2>
+    <div id="resultado">
+      <div id="componenteResultado">
+        <label>Prazo (meses):</label>
+        <br />
+        <input id="inputPrazoMeses" type="text" />
+      </div>
+      <div id="componenteResultado">
+        <label>Juros ao Mês:</label>
+        <br />
+        <input id="inputJurosAoMes" type="text" />
+      </div>
+      <div id="componenteResultado">
+        <label>Juros Acumulados:</label>
+        <br />
+        <input id="inputJurosAcumulado" type="text" />
+      </div>
+    </div>
+
+    <div id="divTabela">
+      <table id="tabelaDinamica"></table>
+    </div>
+  </div>
+  <script src="calculo.js"></script>
+</body>

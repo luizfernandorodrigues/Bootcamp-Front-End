@@ -1,0 +1,58 @@
+#principal {
+  border: 2px solid rgb(135, 135, 216);
+  padding: 50px;
+  margin: 100px;
+}
+
+#parametros {
+  display: flex;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#componenteBotao {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+#componenteParametros {
+  margin: 2px;
+}
+
+#componenteResultado {
+  margin: 2px;
+}
+
+#resultado {
+  display: flex;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabelaDinamica {
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid darkmagenta;
+  width: 539px;
+}
+
+th {
+  border-bottom: 2px solid green;
+}
+
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#divTabela {
+  display: flex;
+  margin-left: 6px;
+}
