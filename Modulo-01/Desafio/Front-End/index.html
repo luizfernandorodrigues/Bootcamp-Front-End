@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Employees</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="divMain" class="main">
+      <div class="filter">
+        <h2>Options</h2>
+        <label
+          >Sort by:<select id="criterioOrdenacao">
+                      </select></label
+        >
+        <fieldset id="componenteGroupBoxRoles">
+          <legend>Filter by roles</legend>
+          <label>Lista</label>
+        </fieldset>
+      </div>
+      <div class="results">
+        <h2>Employees</h2>
+        <table id="componenteTabela">
+          <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Salary</th>
+          </thead>
+        </table>
+      </div>
+    </div>
+    <script src="http.js"></script>
+    <script src="main.js"></script>
+  </body>
+  </body>
+</html>
