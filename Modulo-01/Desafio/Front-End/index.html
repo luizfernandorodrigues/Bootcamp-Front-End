@@ -10,29 +10,28 @@
     <div id="divMain" class="main">
       <div class="filter">
         <h2>Options</h2>
-        <label
-          >Sort by:<select id="criterioOrdenacao">
-                      </select></label
-        >
+        <label>Sort by:<select id="criterioOrdenacao"></select></label>
         <fieldset id="componenteGroupBoxRoles">
           <legend>Filter by roles</legend>
-          <label>Lista</label>
+          <div id="divCheckBox"></div>
         </fieldset>
       </div>
       <div class="results">
         <h2>Employees</h2>
         <table id="componenteTabela">
           <thead>
-            <th>Id</th>
-            <th>Name</th>
-            <th>Role</th>
-            <th>Salary</th>
+            <tr>
+              <th>ID</th>
+              <th>Name</th>
+              <th>Role</th>
+              <th>Salary</th>
+            </tr>
           </thead>
+          <tbody id="dadosTabela"></tbody>
         </table>
       </div>
     </div>
     <script src="http.js"></script>
     <script src="main.js"></script>
-  </body>
   </body>
 </html>

@@ -1,0 +1,18 @@
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+select {
+  width: 180px;
+}
+
+#divMain {
+  display: flex;
+  flex-direction: row;
+}
+
+th {
+  border-bottom: 2px solid green;
+}
