@@ -1,18 +1,13 @@
-import { Component } from 'react';
+import React from 'react';
 
-export class Button extends Component {
-  handleClick() {
-    const { disabled, onClick } = this.props;
-
-    if (onClick && !disabled) this.props.onClick();
+export default function Button({ text, type, getButtonClick, title }) {
+  function handleClick() {
+    // const newInput = event.target.textContent;
+    getButtonClick(text, type);
   }
-
-  render() {
-    const cssButtonClass = this.props.disabled ? 'button disabled' : 'button';
-    return (
-      <div className={cssButtonClass} onClick={this.handleClick.bind(this)}>
-        {this.props.display}
-      </div>
-    );
-  }
+  return (
+    <div className={type} onClick={handleClick} title={title}>
+      {text}
+    </div>
+  );
 }

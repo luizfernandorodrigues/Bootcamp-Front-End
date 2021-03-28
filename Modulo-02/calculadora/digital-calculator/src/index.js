@@ -1,5 +1,12 @@
+import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
-import './index.css';
+import Calculator from './containers/calculator';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <div />
+    <Calculator />
+    <div />
+  </React.StrictMode>,
+  document.querySelector('body')
+);

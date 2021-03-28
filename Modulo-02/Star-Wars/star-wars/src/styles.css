@@ -1,0 +1,14 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.centralizado {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+}
